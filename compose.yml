@@ -1,0 +1,40 @@
+services:
+  app:
+    build:
+      context: .
+      dockerfile: configs/Dockerfile
+    volumes:
+      - /var/.env:/app/.env:ro
+    ports:
+      - "3000"  # Only expose for internal communication
+    env_file:
+      - /var/.env
+    restart: unless-stopped
+    healthcheck:
+      test: ["CMD", "curl", "-f", "http://localhost:3000/api/health"]
+      interval: 30s
+      timeout: 10s
+      retries: 3
+      start_period: 40s
+    networks:
+      - transcendence
+
+  nginx:
+    build:
+      context: .
+      dockerfile: configs/nginx.Dockerfile
+    ports:
+      - "80:80"
+      - "443:443"
+    depends_on:
+      - app
+    restart: unless-stopped
+    networks:
+      - transcendence
+    volumes:
+      - /var/cert/fullchain.pem:/etc/nginx/ssl/cert.pem:ro
+      - /var/cert/privkey.pem:/etc/nginx/ssl/key.pem:ro
+
+networks:
+  transcendence:
+    driver: bridge
