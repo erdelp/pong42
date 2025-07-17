@@ -1,6 +1,6 @@
 # 🕹️ Transcendence
 
-**Transcendence** is a fullstack project for 42 school made by a team of 3 👥: [Eric](https://github.com/erdelp), [Matthieu](https://github.com/mgalvez) and myself. It's a **web app** that allows users to play the game *Pong* in real time with statistics, tournament mode, AI bot and much more!
+**Transcendence** is a fullstack project for 42 school made by a team of 3 👥: [Eric](https://github.com/erdelp), [Matthieu](https://github.com/matthieugalvez) and myself. It's a **web app** that allows users to play the game *Pong* in real time with statistics, tournament mode, AI bot and much more!
 
 ## 🌟 Project's objectives
 
