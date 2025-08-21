@@ -22,7 +22,6 @@
 I worked on:
 - the **front-end**: interface design, integration, UI component management, compliance with SPA constraints.
 - the **back-end**: user management, creation of a restful API following strict CRUD rules and a service-controller-ORM logic.
-- the **game**: conception of game logic, canva design, creation of tournament mode.
 
 ## 📝 What I learned
 
