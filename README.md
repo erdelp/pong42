@@ -1,6 +1,6 @@
 # 🕹️ Transcendence
 
-**Transcendence** is a fullstack project for 42 school made by a team of 3 👥: [Eric](https://github.com/erdelp), [Matthieu](https://github.com/matthieugalvez) and myself. It's a **web app** that allows users to play the game *Pong* in real time with statistics, tournament mode, AI bot and much more!
+**Transcendence** is a fullstack project for 42 school made by a team of 3 👥: [Emma](https://github.com/emma-blnch), [Matthieu](https://github.com/matthieugalvez) and myself. It's a **web app** that allows users to play the game *Pong* in real time with statistics, tournament mode, AI bot and much more!
 
 ## 🌟 Project's objectives
 
@@ -21,7 +21,7 @@
 
 I worked on:
 - the **front-end**: interface design, integration, UI component management, compliance with SPA constraints.
-- the **back-end**: creation and securing of API routes, server logic, sockets management for real-time gaming.
+- the **back-end**: user management, creation of a restful API following strict CRUD rules and a service-controller-ORM logic.
 - the **game**: conception of game logic, canva design, creation of tournament mode.
 
 ## 📝 What I learned
