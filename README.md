@@ -1,6 +1,6 @@
-# 🕹️ Transcendence
+# 🕹️ Pong42
 
-**Transcendence** is a fullstack project for 42 school made by a team of 3 👥: [Emma](https://github.com/emma-blnch), [Matthieu](https://github.com/matthieugalvez) and myself. It's a **web app** that allows users to play the game *Pong* in real time with statistics, tournament mode, AI bot and much more!
+**Pong42** is a fullstack project made for 42 school by a team of 3 👥: [Emma](https://github.com/emma-blnch), [Matthieu](https://github.com/matthieugalvez) and myself. It's a **web app** that allows users to play the game *Pong* in real time with statistics, tournament mode, AI bot and much more!
 
 ## 🌟 Project's objectives
 
